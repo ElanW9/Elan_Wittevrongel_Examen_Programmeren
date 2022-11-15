@@ -1,0 +1,15 @@
+{
+  "name": "examen_leren_programmeren_elan_wittevrongel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "oefening1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
