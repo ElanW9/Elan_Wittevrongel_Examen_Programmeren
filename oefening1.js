@@ -13,10 +13,10 @@ const plaats = Gemeente.toUpperCase();
 
 
 
-
 function logtest(){
-    return `${firstName} ${Familienaam} \n${Straathuisnummer} \n${Postcode} \n${plaats}`
-};
+        return `${firstName} ${Familienaam} \n${Straathuisnummer} \n${Postcode} \n${plaats}`;
+    };
+    
 
 console.log(logtest());
 

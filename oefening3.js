@@ -19,6 +19,9 @@ Schilder.prototype.addPaintings = function newPainting(naam, Canvas, kostprijs) 
   this.schilderijen.push(new Schilderij(naam, Canvas, kostprijs));
 };
 
+Schilderij.prototype.tolocale = function (kostprijs){
+    this.schilderijen.toLocaleString("nl-BE" , currency);
+};
 const Schilder1 = new Schilder("Vincent", "van Gogh", "Postimpressionisme");
 Schilder1.addPaintings("Zonnebloemen", "93x72", 39921750);
 Schilder1.addPaintings("De aardappeleters", "82x114", 21152154);

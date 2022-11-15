@@ -1,13 +1,21 @@
-function Text(String){
-this.String = String;
+function Text(string){
+this.string = string;
 }
 
-Text.prototype.CharCount = function fromLeft(links){
-    return this.String.left();
-}
+Text.prototype.getcharCount = function CharCount(string){
+    return this.string.length();
+};
+
+Text.prototype.getwordCount = function wordCount(string){
+    return this.string.split(" ").length;
+};
+
+Text.prototype.getVowelCount = function vowelCount(string){
+    return this.str.match(/[aeiou]/).length;
+};
 
 
 
-const Str1 = new Text("tekstvlak");
+const Str1 = new Text("tekstvlak hier lezen");
 
-console.log(Str1.CharCount());
+console.log(Str1.getwordCount());
